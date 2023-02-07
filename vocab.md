@@ -13,6 +13,7 @@ This is a list of new technical vocabulary we come across during the React unit.
 - node module
 - Relative Path and Absolute Path
 - Smart Components and Dumb Components
+- Controlled Components and Uncontrolled components
 
 ## JavaScript Ecosystem Vocab
 
@@ -46,3 +47,18 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Setter
 - Stateful
 - Toggle
+- Forms
+    - input
+    - checkbox
+    - select drop-down
+    - radio
+    - label
+    - buttons (submit, reset)
+    - event handler
+    - event listener
+    - event.preventdefault()
+    - event.target.value
+    - attributes
+       - for/htmlFor attribute
+       - id,name, value
+- Computed property name
