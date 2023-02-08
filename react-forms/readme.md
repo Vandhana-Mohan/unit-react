@@ -47,10 +47,10 @@ Add a function that will handle the changes:
 function handleCheckboxChange() {}
 ```
 
-Initially, when you add an input element, you can interact with it. This [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) can be clicked to check and uncheck the value. When the checkbox is unchecked the value of `checked` is equal to `false`, when the checkbox is checked th value of `checked` is `true`
+Initially, when you add an input element, you can interact with it. This [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) can be clicked to check and uncheck the value. When the checkbox is unchecked the value of `checked` is equal to `false`, when the checkbox is checked the value of `checked` is `true`
 
 ```html
-<input type="checkbox />
+<input type="checkbox" />
 ```
 
 > **Note:** Most inputs
@@ -83,14 +83,13 @@ const [selectOption, setSelectOption] = useState("");
 
 Add a function to handle the changes:
 
-````js
 Set up state and the event handler:
 
 ```js
 const [selectOption, setSelectOption] = useState("");
 
 function handleSelectChange() {}
-````
+```
 
 Add the select menu:
 
@@ -179,7 +178,7 @@ function handleSubmit(event) {
 </form>;
 ```
 
-````
+
 
 You should now be able to see the console log because the page is no longer reloading.
 
@@ -197,7 +196,7 @@ const [user, setUser] = useState({
   email: "",
   password: "",
 });
-````
+```
 
 Create a function to handle the change
 
@@ -317,7 +316,12 @@ Add labels (and some style), and notice that the `htmlFor` property matches the 
     id="lastName"
   />
   <label htmlFor="zip">Zip code:</label>
-  <input type="number" value={user.zip} onChange={handleTextChange} id="zip" />
+  <input 
+    type="number" 
+    value={user.zip} 
+    onChange={handleTextChange} 
+    id="zip" 
+  />
   <label htmlFor="email">Email:</label>
   <input
     type="email"

@@ -102,7 +102,7 @@ Update this inside the `changeColor` function
 function changeColor() {
   const chooseIndex = Math.floor(Math.random() * colors.length);
   setColor(colors[chooseIndex]);
-  setCounter(counter++);
+  setCounter(counter + 1);
 }
 ```
 
@@ -138,7 +138,7 @@ Using booleans with state is similar to numbers and strings.
 Add more state:
 
 ```js
-const [defaultFontColor, toggleFontColor] = useState(true);
+const [defaultFontColor, setFontColor] = useState(true);
 ```
 
 Create a new button:
@@ -151,7 +151,7 @@ Create a `toggleFontColor` function:
 
 ```js
 function toggleFontColor() {
-  toggleFontColor(!defaultFontColor);
+  setFontColor(!defaultFontColor);
 }
 ```
 
