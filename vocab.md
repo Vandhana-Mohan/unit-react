@@ -12,7 +12,7 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Runtime Environment
 - node module
 - Relative Path and Absolute Path
-- Smart Components and Dumb Components
+
 
 ## JavaScript Ecosystem Vocab
 
@@ -46,3 +46,4 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Setter
 - Stateful
 - Toggle
+- Smart Components and Dumb Components
