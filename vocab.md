@@ -47,3 +47,5 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Stateful
 - Toggle
 - Smart Components and Dumb Components
+- Rendering (invoke a function to figure that the user should view)
+-
