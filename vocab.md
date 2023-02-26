@@ -46,6 +46,9 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Setter
 - Stateful
 - Toggle
-- Smart Components and Dumb Components
+- Smart Components, presentation component and Dumb Components
 - Rendering (invoke a function to figure that the user should view)
--
+- Commit phase 
+- useEffect
+- dependencies
+- 
