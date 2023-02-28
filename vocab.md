@@ -12,6 +12,9 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Runtime Environment
 - node module
 - Relative Path and Absolute Path
+- Single Page Applications (SPA)
+- server side rendering
+- client side rendering
 
 
 ## JavaScript Ecosystem Vocab
@@ -51,4 +54,15 @@ This is a list of new technical vocabulary we come across during the React unit.
 - Commit phase 
 - useEffect
 - dependencies
+- Router
+- conditional rendering
+- Browser Router
+- Routes
+- Route
+- Link
+- Navigate
+- Pages
+- Common
+- path
+- element
 - 
